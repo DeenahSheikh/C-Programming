@@ -125,7 +125,7 @@ int main(){
         printf("not prime");
     }
     return 0;
-}*/
+}
 
 //fibonnaci series
 #include <stdio.h>
@@ -140,5 +140,7 @@ int main(){
         a=b;
         b=next;
     }
-    
-}
+
+}*/
+
+//
