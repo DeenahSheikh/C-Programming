@@ -1,16 +1,15 @@
 #include <stdio.h>
-void main()
+void display(int*); 
+int main()
 {
-    int a[5]={1,2,3,4,5};
-    //Function Declaration
-    void display(int*);
+    int a[5] = {1,2,3,4,5};
     printf("Passing Array as a parameter:\n");
     display(a);
+    return 0;
 }
-
-void display(int*p)
-{
-    for(int i=0;i<5;i++)
-    {printf("%d\n",*p);
-    p++;}
+void display(int *p)
+{for(int i = 0; i < 5; i++)
+    {
+        printf("%d\n", p[i]);
+    }
 }
