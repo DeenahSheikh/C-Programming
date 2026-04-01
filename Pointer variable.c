@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    // Modify values through pointers
-    // Print modified values from original variables
     int age=25;
     char grade='A';
     float temperature=98.6;
