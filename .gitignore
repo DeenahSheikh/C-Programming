@@ -1,5 +1,4 @@
 *.exe
 output/
 files.c
-recursion.c
 files1.c
