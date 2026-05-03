@@ -1,4 +1,2 @@
 *.exe
 output/
-files.c
-files1.c
