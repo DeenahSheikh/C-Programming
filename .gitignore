@@ -1,9 +1,9 @@
 *.exe
 output/
-1.c
-
 eval2.c
 eval6.c
 evalllll.c
 
+onmask.c
+off.c
 
