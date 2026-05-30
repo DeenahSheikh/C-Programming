@@ -2,8 +2,7 @@
 #include <math.h>
 
 
-//calcualte total compound interest formula is sent on whatsapp
-
+//calcualte total compound interest 
 // if principal amount is more than 50000 than add 1 to rate;
 // else print normal CI
 double calculateCompoundInterest(double P, double R, int T) {
