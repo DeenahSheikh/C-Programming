@@ -6,7 +6,6 @@
 int findthrird(const void *a, const void *b){
     return (*(int*) a- *(int*)b);
 }
-
 int main(){
     int n;
     scanf("%d",&n);
