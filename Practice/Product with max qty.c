@@ -18,9 +18,9 @@ int main()
         scanf("%d",&s1[i].price);
         scanf("%d",&s1[i].qty);
     }
-int max=s1[0].qty;
-int ind=0;
-int total=0;
+    int max=s1[0].qty;
+    int ind=0;
+    int total=0;
     for(int i=0;i<n;i++){
         total=s1[i].price * s1[i].qty;
 
