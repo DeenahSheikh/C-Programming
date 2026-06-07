@@ -18,7 +18,6 @@ int main(){
         if(arr[i]>5){
             count++;
         }
-
     }
     average=sum/n;
 
