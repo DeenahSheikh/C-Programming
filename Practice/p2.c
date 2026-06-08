@@ -20,7 +20,6 @@ int main(){
         }
     }
     average=sum/n;
-
     printf("%d\n",max);
     printf("%d\n",count);
     printf("%.2f\n",average);
