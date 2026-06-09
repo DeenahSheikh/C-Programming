@@ -54,7 +54,6 @@ int main()
             ind=i;
             gd=tempgd;
             g=s1[i].goals_scored;
-
         }
         else if(max==temppt){
             if(tempgd>gd){
