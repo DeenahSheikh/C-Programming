@@ -8,7 +8,6 @@ struct Contact{
     char email[40];
     int age;
 };
-
 struct Contact* createContact(){
     struct Contact* contactPtr= malloc(sizeof(struct Contact));
 
