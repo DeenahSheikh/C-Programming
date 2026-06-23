@@ -10,7 +10,6 @@ struct Contact{
 };
 struct Contact* createContact(){
     struct Contact* contactPtr= malloc(sizeof(struct Contact));
-
     contactPtr->name[0]='\0';
     contactPtr->phone[0]='\0';
     contactPtr->email[0]='\0';
